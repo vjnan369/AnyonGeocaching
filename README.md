@@ -16,12 +16,32 @@ params {
 ````
 2. Get All messages within specified locations
 
+Request:
 ````
-GET http://anyongeocaching.herokuapp.com/geo_secrets/get_secrets?lattitude=51.9060&longitude=10.429&distance=100
+GET http://anyongeocaching.herokuapp.com/geo_secrets/get_secrets?lattitude=51.9060&longitude=10.429&distance=300
+````
+Response:
+````
+{
+    "status": "success",
+    "secret_messages": [
+        "Hello Berlin",
+        "Hello Germany"
+    ]
+}
 ````
 
 2. Get Nearest message from specified locations
+Request:
 
 ````
 GET http://anyongeocaching.herokuapp.com/geo_secrets/get_nearest_secret?lattitude=51.9060&longitude=10.429
+````
+
+Response:
+````
+{
+    "status": "success",
+    "secret_message": "Hello Berlin"
+}
 ````
