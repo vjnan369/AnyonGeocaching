@@ -1,6 +1,9 @@
 class GeoSecretsController < ApplicationController
 skip_before_action :verify_authenticity_token
 
+  def index
+    
+  end
   # This method will set a secret message at specific geolocation
   def create
     Rails.logger.debug params.inspect
