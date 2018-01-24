@@ -20,22 +20,8 @@ params {
 GET http://anyongeocaching.herokuapp.com/geo_secrets/get_secrets?lattitude=51.9060&longitude=10.429&distance=100
 ````
 
-Things you may want to cover:
+2. Get Nearest message from specified locations
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+````
+GET http://anyongeocaching.herokuapp.com/geo_secrets/get_nearest_secret?lattitude=51.9060&longitude=10.429
+````
