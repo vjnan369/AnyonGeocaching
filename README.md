@@ -31,7 +31,8 @@ Response:
 }
 ````
 
-2. Get Nearest message from specified locations
+3. Get Nearest message from specified locations
+
 Request:
 
 ````
