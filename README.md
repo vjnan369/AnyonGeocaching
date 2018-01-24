@@ -46,3 +46,9 @@ Response:
     "secret_message": "Hello Berlin"
 }
 ````
+
+## Testing
+command to run test cases
+````
+rspec spec
+````
