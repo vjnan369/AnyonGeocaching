@@ -11,7 +11,7 @@ POST http://anyongeocaching.herokuapp.com/geosecrets
 params {
   lattitude: 52.5200,
   longitude: 13.4050,
-  message: "Hello World"
+  message: "Hello Berlin"
 }
 ````
 2. Get All messages within specified locations
